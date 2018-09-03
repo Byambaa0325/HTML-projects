@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Lab 1</h1>
+
+	
+</head>
+<body  bgcolor="#bdc3c7">
+<img src="https://publicdomainvectors.org/photos/Faceless-Male-Avatar.png" width="150" height="150">
+
+<div align="left">
+	<p id="personalInfo"><br>Нэр:Бямбаа</br>
+	<br>Суралцаж буй чиглэл: Мэдээлэл технологи</br>
+	<br>ID:17B1NUM0662</br>
+	</p>
+</div>
+<h1>Xамгийн их ордог сайтын жагсаалт</h1>
+<ol>
+	<li><a href="https://www.google.com/"><h3>Google</h3></a></li>
+	<li><a href="https://www.quora.com/"><h3>Quora</h3></a></li>
+	<li><a href="https://www.youtube.com/"><h3>Youtube</h3></a></li>
+	<li><a href="https://www.google.com/gmail/"><h3>Gmail</h3></a></li>
+	<li><a href="https://www.coursera.org/"><h3>Coursera</h3></a></li>
+</ol>
+
+<h1>Зургийн цомог</h1>
+<div>
+	<a href="https://unsplash.com/">
+		<img src="https://images.unsplash.com/photo-1535728534313-e206f59bed23?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c7a32a5f706c239428dceb9340f210a4&auto=format&fit=crop&w=634&q=80" width="150" height="150">
+		<img src="https://images.unsplash.com/photo-1535656571-a40722e07755?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67af8e4b0b07dbbde2da10e62b02f54a&auto=format&fit=crop&w=634&q=80" width="150" height="150">
+		<img src="https://images.unsplash.com/photo-1535588926957-dc13fb410d88?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b1edebc96d42d8950be4706a6cd9e7c&auto=format&fit=crop&w=907&q=80" width="150" height="150">
+		<img src="https://images.unsplash.com/photo-1535663516603-c84fa363884f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=745b1ea04de49fffc5444de54f25f4c2&auto=format&fit=crop&w=1050&q=80" width="150" height="150">
+		<img src="https://images.unsplash.com/photo-1535738224937-509ad241df9a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bcf3ade46876dec6b3569ba8998e8ddb&auto=format&fit=crop&w=1047&q=80" width="150" height="150">
+	</a>
+</div>
+<h1>Videos:</h1>
+<div>
+<iframe width="200" height="200" src="https://www.youtube.com/embed/Vk8UEWHYfEg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="200" height="200" src="https://www.youtube.com/embed/oDc2aIunnr0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="200" height="200" src="https://www.youtube.com/embed/YlaWGd1cUms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</body>
+</html>
