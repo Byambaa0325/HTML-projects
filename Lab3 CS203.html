@@ -1,0 +1,105 @@
+<html>
+   <header>
+      <style>
+         table{	
+         width: 40%;
+         height: auto;
+         overflow: auto;
+         border: 10px #000000;
+         }
+         table tr td{
+         background-color: blue;
+         }
+         body{
+         	color: white;
+         }
+         textarea{
+         	height: 100px;
+         	width: 300px;
+         }
+      </style>
+   </header>
+
+   <body>
+      <table align="center">
+         <tr>
+            <td style="background-color: orange" colspan="2">
+               Sign Up:
+            </td>
+         </tr>
+         <form id="form">
+            <tr>
+               <td>
+                  First Name:
+               </td>
+               <td>
+                  <input type="text" name="FN" placeholder="Enter your first name...">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Last Name:
+               </td>
+               <td>
+                  <input type="text" name="LN" placeholder="Enter your last name...">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Password:
+               </td>
+               <td>
+                  <input type="password" name="Pass" placeholder="*********">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Date of Birth:
+               </td>
+               <td>
+                  <input type="Date" name="Date">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Gender:
+               </td>
+               <td>
+                  <input type="Radio" name="Gender" value = "Male" checked> Male
+                  <input type="Radio" name="Gender" value = "Female"> Female
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Country:
+               </td>
+               <td>
+                  <select name="Country" form="form">
+                     <option value="Mongolia"> Mongolia</option>
+                     <option value="Other">Other</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Comment:
+               </td>
+               <td>
+                  <textarea name = "Comment" form="form" placeholder="Enter your comment here..."></textarea>
+               </td>
+            </tr>
+            <tr>
+               <td align="center" style="background-color: darkorange" colspan="2">
+                  <input type= "checkbox" name="Agreement" value="1">I agree to the Terms of Uses
+               </td>
+            </tr>
+            <tr>
+               <td align="right" style="background-color: orange" colspan="2">			
+                  <input type= "submit" value="Submit" style="background-color: green">
+                  <input type= "reset" value="Cancel" style="background-color: red">
+               </td>
+            </tr>
+         </form>
+      </table>
+   </body>
+</html>
