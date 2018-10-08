@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>LAB5</title>
+        <style>
+        * {
+     box-sizing: border-box;
+     font-family: Calibri;
+     }
+     .top{
+       position: sticky;
+       text-transform: uppercase;
+       text-align: right;
+       top:0;
+       right:0;
+       background-color:  white;
+       width: 100%;
+       z-index: 1;
+     }
+     .nav{
+       display: inline-block;
+       font-size: 16px;
+       font-weight: bold;
+
+       padding: 10px;
+     }
+     .nav:hover{
+       color: blue;
+     }
+        .social{
+          top: 20%;
+          position: fixed;
+
+          float: left;
+          width: 65px;
+        }
+        .group{
+          display: inline-block;
+          width: 30%;
+          padding: 15px;
+
+        }
+        .pic{
+          display: inline-block;
+          position: relative;
+
+
+
+          bottom:50px;
+          height: 50px;
+          width: 50px;
+
+
+        }
+        .grouptext{
+          display: inline-block;
+          position: relative;
+          width: 300px;
+          padding-left:  20px;
+
+
+
+
+        }
+
+        .slide_container{
+          background-image: url("back.jpg");
+          height: 450px;
+          width: 100%;
+          clear: both;
+          background-size: cover;
+            text-transform: uppercase;
+
+        }
+
+
+        .reference{
+          color: white;
+         font-family: "Times New Roman", Times, serif
+          width: 100%;
+          height: 150px;
+          padding: 40px 0;
+          background-color: #272a30;
+          border: 0px;
+          text-align: center;
+        }
+        #button{
+          position: absolute;
+              padding-left: 30%;
+          text-align:  center;
+          font-size: 16px;
+          font-weight: bold;
+
+          padding: 15px 0;
+
+          opacity: 0.4;
+          height: 50px;
+          width: 100px;
+          background-color: lightgray;
+        }
+        #button:hover{
+          opacity: 1;
+        }
+        .main{
+          position: relative;
+          left:10%;
+
+        }
+        .slide{
+          position: absolute;
+          padding-left: 30%;
+          padding-top: 10%;
+          font-size: 40px;
+          font-weight: bolder;
+
+        }
+        .social_pic{
+          height: 60px;
+          width: 60px;
+        }
+        .submain_container{
+          background-color: lightgray;
+        }
+        .submain{
+          position: relative;
+
+            left: 20%;
+            background-color: inherit;
+        }
+        .first{
+
+          display: inline-block;
+          width: 30%;
+          padding: 20px;
+
+
+        }
+        .second{
+          display: inline-block;
+          width: 30%;
+              padding: 20px;
+        }
+        .group h4{
+          color: blue;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="top">
+            <p class="nav">HOME</p>
+            <p class="nav">ABOUT</p>
+            <p class="nav">SERVICES</p>
+            <p class="nav">WORKS</p>
+            <p class="nav">BLOG</p>
+            <p class="nav">CONTACT</p>
+        </div>
+        <div class="slide_container">
+            <div class="slide">
+                	<span class="slogan">Hello World</span>
+                <p id="button">Sign Up</p>
+            </div>
+        </div>
+        <div class="social">
+            <img src="f.ico" class="social_pic">
+            <img src="t.png" class="social_pic">
+            <img src="y.ico" class="social_pic">
+        </div>
+        <div class="main_container">
+            <div class="main">
+                <div class="group">
+                    <img src="item.png" class="pic">
+                    <div class="grouptext">
+                        <h4>First theme with livephotos</h4>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <img src="item.png" class="pic">
+                    <div class="grouptext">
+                        <h4>Visual Click & Edit Builder</h4>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <img src="item.png" class="pic">
+                    <div class="grouptext">
+                        <h4>Header & Footer Builder</h4>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reference">
+            <p>"This is the best theme ever. Made dozens of sites using it the support is always speedy. highly recommend for any type of project this is the best theme ever."</p>
+            <p>- Jose Antenn</p>
+        </div>
+        <div class="submain_container">
+            <div class="submain">
+                <div class="first">
+                    	<h4>Company Information</h4>
+                    <p>Codeless is an experienced and passionate group of designers, developers, project managers, writers and artists, of passages of Lorem Ipsum available.</p>
+                    	<h4>History</h4>
+                    <p>Interactively underwhelm turnkey initiatives before high-payoff relationships. Holisticly restore superior interfaces before flexible technology. Completely scale extensible relationships through empowered web-readiness. Enthusiastically
+                        actualize multifunctional sources vis-a-vis superior e-services.</p>
+                </div>
+                <div class="second">
+                    	<h4>What We Do</h4>
+                    <p>Codeless is an experienced and passionate group of designers, developers, project managers, writers and artists, of passages of Lorem Ipsum available.</p>
+                    	<h4>Our Future</h4>
+                    <p>Interactively underwhelm turnkey initiatives before high-payoff relationships. Holisticly restore superior interfaces before flexible technology. Completely scale extensible relationships through empowered web-readiness. Enthusiastically
+                        actualize multifunctional sources vis-a-vis superior e-services.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
